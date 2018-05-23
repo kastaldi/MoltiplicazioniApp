@@ -99,6 +99,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void setTextButton(List<Integer> list)
     {
+        // prepara le risposte dei bottoni
         bRisp1.setText(String.valueOf(list.get(0)));
         bRisp2.setText(String.valueOf(list.get(1)));
         bRisp3.setText(String.valueOf(list.get(2)));

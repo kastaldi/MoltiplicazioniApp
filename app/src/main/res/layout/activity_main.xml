@@ -24,6 +24,7 @@
      android:layout_centerHorizontal="true"
      android:layout_marginTop="100dp">
 
+
   <TableRow
       android:layout_width="match_parent"
       android:layout_height="match_parent">
@@ -32,17 +33,15 @@
        android:id="@+id/bRisp1"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
-       android:text="Button"
        android:layout_weight="1"
-       android:onClick="rispostaClick"/>
+       android:onClick="rispostaClick" />
 
    <Button
        android:id="@+id/bRisp2"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
-       android:text="Button"
-       android:onClick="rispostaClick"
-       android:layout_weight="1"/>
+       android:layout_weight="1"
+       android:onClick="rispostaClick" />
   </TableRow>
 
   <TableRow
@@ -53,31 +52,28 @@
        android:id="@+id/bRisp3"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
-       android:text="Button"
-       android:onClick="rispostaClick"
-       android:layout_weight="1"/>
+       android:layout_weight="1"
+       android:onClick="rispostaClick" />
 
    <Button
        android:id="@+id/bRisp4"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
-       android:text="Button"
-       android:onClick="rispostaClick"
-       android:layout_weight="1"/>
+       android:layout_weight="1"
+       android:onClick="rispostaClick" />
   </TableRow>
 
  </TableLayout>
 
  <TextView
+     android:id="@+id/timer"
      android:layout_width="wrap_content"
      android:layout_height="wrap_content"
      android:layout_centerHorizontal="true"
      android:layout_centerVertical="true"
+     android:text="@string/timer"
      android:textSize="30sp"
-     android:id="@+id/timer"
-     android:text="00:30"
-     android:textStyle="bold"
-     />
+     android:textStyle="bold" />
 
  <TextView
      android:layout_width="wrap_content"

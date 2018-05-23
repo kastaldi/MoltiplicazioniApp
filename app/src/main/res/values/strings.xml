@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MoltiplicazioniApp</string>
+    <string name="timer">00:30</string>
 </resources>
